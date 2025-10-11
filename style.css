@@ -1,0 +1,27 @@
+.sab-card {
+            border: none;
+            border-radius: 15px;
+}
+.tabelin {
+            border-radius: 10px;
+            overflow: hidden;
+ }
+
+.carousel-image {
+            height: 500px;
+            object-fit: cover;
+                    }
+.hero-section {
+            background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+}
+.card-hover:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+}
+ .form-section {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+                  }
+.feature-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+              }

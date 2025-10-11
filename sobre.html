@@ -1,136 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-    <title>Sobre</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+   
 </head>
 <body>
-     <header>
   
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-            <img src="FacGames.png" alt="Logo FacGames" width="40" height="40" class="d-inline-block align-text-top me-2">
-                FacGames
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-     <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sobre.html">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contato.html">Contatos</a>
-                    </li>
-            </ul>
-        </div>
-        </div>
-     </nav>
-      </header>
+    <header class="bg-dark sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <div class="container-fluid">
+             
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img width="50" src="controle-de-video-game.png" alt="FacGames Logo" class="me-2">
+                    <span class="fw-bold">FacGames</span>
+                </a>
+                
+               
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+               
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto gap-3">
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="sobre.html">Sobre</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>    
 
-    
-
-
-
-
-<section class="row">
-    <div class="col-12">
-        <header class="text-center mb-5">
-            <h2>Plataformas que Cobrimos</h2>
-        </header>
-        
-        <div class="row g-4">
-            
-            <article class="col-md-6 col-lg-3">
-                <section class="card h-100 shadow-sm border-0">
-                    <div class="card-body text-center">
-                        <i class="bi bi-nintendo-switch display-4 text-danger mb-3" aria-hidden="true"></i>
-                        <h3 class="card-title h5">Nintendo</h3>
-                        <p class="card-text">Tudo sobre Switch, Wii, DS e os clássicos da Nintendo</p>
-                    </div>
-                </section>
+    <main>
+     
+        <section class="bg-primary">
+            <article class="container pt-5 p-4 text-white">
+                <h1 class="display-4 fw-bold">Sobre</h1> 
+                <p class="lead">Conheça nossa missão, visão e tudo sobre o universo gaming que criamos para você.</p>
+                <div class="mt-3">
+                    <a href="#nossa-historia" class="btn btn-light btn-lg me-2">Saiba Mais</a>
+                    <a href="contato.html" class="btn btn-outline-light btn-lg">Inscreva-se</a>
+                </div>
             </article>
-            
-            <article class="col-md-6 col-lg-3">
-                <section class="card h-100 shadow-sm border-0">
-                    <div class="card-body text-center">
-                        <i class="bi bi-playstation display-4 text-primary mb-3" aria-hidden="true"></i>
-                        <h3 class="card-title h5">PlayStation</h3>
-                        <p class="card-text">PS5, PS4 e a rica história da Sony no mundo dos games</p>
+        </section>
+
+      
+        <div class="container my-5">
+            <div class="row">
+              
+                <div class="col-lg-8 mx-auto">
+                    <div class="card sab-card shadow-sm mb-4">
+                        <div class="card-body">
+                           
+                            <div class="mb-4">
+                                <h3 class="card-title text-primary mb-3">Últimas Notícias</h3>  
+                                <ul class="list-group">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <span>Novo jogo da franquia Zelda anunciado</span>
+                                        <span class="badge bg-success">Info</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <span>Ranking dos melhores games de 2025</span>
+                                        <span class="badge bg-success">Info</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <span>Curiosidades sobre desenvolvimento de games</span>
+                                        <span class="badge bg-success">Info</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                         
+                            <div id="nossa-historia">
+                                <h3 class="card-title text-primary mb-3">O que fazemos?</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex align-items-center">
+                                        <i class="bi bi-controller me-3 text-primary fs-5"></i>
+                                        <div class="flex-grow-1">
+                                            <strong>Curiosidades</strong>
+                                            <p class="mb-0 text-muted">Descubra fatos interessantes do mundo gaming</p>
+                                        </div>
+                                        <i class="bi bi-check-circle-fill text-success"></i>
+                                    </li>
+                                    <li class="list-group-item d-flex align-items-center">
+                                        <i class="bi bi-trophy me-3 text-warning fs-5"></i>
+                                        <div class="flex-grow-1">
+                                            <strong>Rankings</strong>
+                                            <p class="mb-0 text-muted">Listas dos melhores jogos por categoria</p>
+                                        </div>
+                                        <i class="bi bi-check-circle-fill text-success"></i>
+                                    </li>
+                                    <li class="list-group-item d-flex align-items-center">
+                                        <i class="bi bi-star me-3 text-success fs-5"></i>
+                                        <div class="flex-grow-1">
+                                            <strong>Tops</strong>
+                                            <p class="mb-0 text-muted">Seleções especiais e recomendações</p>
+                                        </div>
+                                        <i class="bi bi-check-circle-fill text-success"></i>
+                                    </li>
+                                    <li class="list-group-item d-flex align-items-center">
+                                        <i class="bi bi-people me-3 text-info fs-5"></i>
+                                        <div class="flex-grow-1">
+                                            <strong>Comunidade</strong>
+                                            <p class="mb-0 text-muted">Conectamos gamers de todo o mundo</p>
+                                        </div>
+                                        <i class="bi bi-check-circle-fill text-success"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                </section>
+                </div>
+            </div>
+
+            <article class="text-center my-5">
+                <h1 class="display-5 fw-bold">Nossa Equipe</h1>
+                <p class="lead">Conheça os membros que fazem a FacGames acontecer</p>
             </article>
-            
+
           
-            <article class="col-md-6 col-lg-3">
-                <section class="card h-100 shadow-sm border-0">
-                    <div class="card-body text-center">
-                        <i class="bi bi-xbox display-4 text-success mb-3" aria-hidden="true"></i>
-                        <h3 class="card-title h5">Xbox</h3>
-                        <p class="card-text">Xbox Series X/S, Game Pass e o ecossistema Microsoft</p>
+            <section class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="tabelin shadow-sm">
+                        <table class="table table-hover table-striped">
+                            <thead class="table-primary">
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>Nick</th>
+                                    <th>Email</th>
+                                    <th>Cargo</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Hugo Leonardo</td>
+                                    <td><span class="badge bg-dark">Coloso</span></td>
+                                    <td>hugoleonardo040906@gmail.com</td>
+                                    <td>Fundador</td>
+                                </tr>
+                                <tr>
+                                    <td>Maria Silva</td>
+                                    <td><span class="badge bg-danger">Mary</span></td>
+                                    <td>mary@example.com</td>
+                                    <td>Editora Chefe</td>
+                                </tr>
+                                <tr>
+                                    <td>Juliana Santos</td>
+                                    <td><span class="badge bg-success">July</span></td>
+                                    <td>july@example.com</td>
+                                    <td>Analista de Games</td>
+                                </tr>
+                                <tr>
+                                    <td>Carlos Oliveira</td>
+                                    <td><span class="badge bg-warning text-dark">Dooley</span></td>
+                                    <td>carlos@example.com</td>
+                                    <td>Desenvolvedor</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                </section>
-            </article>
-            
-          
-            <article class="col-md-6 col-lg-3">
-                <section class="card h-100 shadow-sm border-0">
-                    <div class="card-body text-center">
-                        <i class="bi bi-pc display-4 text-warning mb-3" aria-hidden="true"></i>
-                        <h3 class="card-title h5">PC Gaming</h3>
-                        <p class="card-text">Jogos para PC, hardware, e a cena competitiva</p>
-                    </div>
-                </section>
-            </article>
+                </div>
+            </section>
         </div>
-    </div>
-</section>
+    </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <footer class="bg-dark text-white py-4  ">
+   
+    <footer class="text-white py-4 bg-dark">
         <div class="container">
-            <div class="row mx-0">
-                <section class="col-md-6">
+            <div class="row">
+                <div class="col-md-6">
                     <h5>FacGames</h5>
                     <p>Mostrando fatos sobre games desde 2025.</p>
-                </section>
-                <section class="col-md-6 text-md-end">
+                </div>
+                <div class="col-md-6 text-md-end">
                     <h5>Redes Sociais</h5>
-                    <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
-                </section>
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-5"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-youtube fs-5"></i></a>
+                </div>
             </div>
             <hr>
             <p class="text-center mb-0">&copy; 2025 FacGames - Todos os direitos reservados</p>
         </div>
     </footer>
 
-
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
